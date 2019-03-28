@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 
 <robot name="wooden_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
-
+  <xacro:include filename="$(find pet_robot)/urdf/pet_robot.gazebo" />
   <link name="robot_footprint"></link>
 
   <joint name="robot_footprint_joint" type="fixed">
