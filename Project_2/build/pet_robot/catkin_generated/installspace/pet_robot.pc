@@ -1,0 +1,8 @@
+prefix=/home/noob/Documents/UdacityRoboticsNanoDegree/Project_2/install
+
+Name: pet_robot
+Description: Description of pet_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/noob/Documents/UdacityRoboticsNanoDegree/Project_2/install/lib 
+Requires: 
