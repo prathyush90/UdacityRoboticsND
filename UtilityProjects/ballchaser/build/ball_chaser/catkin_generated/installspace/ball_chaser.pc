@@ -1,0 +1,8 @@
+prefix=/home/noob/Documents/UdacityRoboticsNanoDegree/UtilityProjects/ballchaser/install
+
+Name: ball_chaser
+Description: Description of ball_chaser
+Version: 0.0.0
+Cflags: -I/home/noob/Documents/UdacityRoboticsNanoDegree/UtilityProjects/ballchaser/install/include
+Libs: -L/home/noob/Documents/UdacityRoboticsNanoDegree/UtilityProjects/ballchaser/install/lib 
+Requires: 
