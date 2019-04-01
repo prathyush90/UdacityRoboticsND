@@ -1,0 +1,22 @@
+<model name='pet_robot_1'>
+        <pose frame=''>6e-06 -0.000128 0.1 -1.4e-05 0.000384 0.001428</pose>
+        <scale>1 1 1</scale>
+        <link name='left_wheel_1'>
+          <pose frame=''>-0.000208 0.149872 0.099998 -1.5e-05 -5.9e-05 0.001428</pose>
+          <velocity>0.000297 0.001327 -0.004482 -0.013342 0.002891 -3.4e-05</velocity>
+          <acceleration>0.0189 2.72351 -9.17727 -2.19438 0.103176 -0.046591</acceleration>
+          <wrench>0.094498 13.6175 -45.8864 0 -0 0</wrench>
+        </link>
+        <link name='right_wheel_1'>
+          <pose frame=''>0.00022 -0.150127 0.100002 -1.1e-05 0.002606 0.001428</pose>
+          <velocity>0.00029 0.001332 -0.000343 -0.013356 0.002888 -3.2e-05</velocity>
+          <acceleration>0.009684 2.73271 -0.702473 -2.22179 0.086493 -0.042869</acceleration>
+          <wrench>0.048419 13.6636 -3.51236 0 -0 0</wrench>
+        </link>
+        <link name='robot_footprint_1'>
+          <pose frame=''>6e-06 -0.000128 0.1 -1.4e-05 0.000384 0.001428</pose>
+          <velocity>0.000293 0.001265 -0.00242 -0.01363 0.00289 -3.3e-05</velocity>
+          <acceleration>0.014183 2.60629 -4.96463 -2.77372 0.093704 -0.044586</acceleration>
+          <wrench>0.214169 39.355 -74.9659 0 -0 0</wrench>
+        </link>
+      </model>

@@ -118,6 +118,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/noob/Documents/UdacityRoboticsNanoDegree/Project_2/build/gtest/cmake_install.cmake")
   include("/home/noob/Documents/UdacityRoboticsNanoDegree/Project_2/build/pet_robot/cmake_install.cmake")
+  include("/home/noob/Documents/UdacityRoboticsNanoDegree/Project_2/build/ball_chaser/cmake_install.cmake")
 
 endif()
 

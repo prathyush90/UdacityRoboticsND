@@ -1,8 +1,21 @@
 <?xml version='1.0'?>
 
 <robot name="wooden_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <material name="blue">
+       <color rgba="0 0 0.8 1"/>
+  </material>
+   
+  <material name="white">
+        <color rgba="0 0 0 1"/>
+  </material>
+
+  <gazebo reference="chassis">
+   <material>Gazebo/Blue</material>
+  </gazebo>
   <xacro:include filename="$(find pet_robot)/urdf/pet_robot.gazebo" />
   <link name="robot_footprint"></link>
+
+  
 
   <joint name="robot_footprint_joint" type="fixed">
     <origin xyz="0 0 0" rpy="0 0 0" />
@@ -35,6 +48,7 @@
       <geometry>
         <box size=".4 .2 .1"/>
       </geometry>
+      <material name="orange"/>
     </visual>
 
 
@@ -43,6 +57,7 @@
       <geometry>
         <sphere radius="0.0499"/>
       </geometry>
+      
     </collision>
 
     <visual name='back_caster_visual'>
@@ -50,6 +65,7 @@
       <geometry>
         <sphere radius="0.05"/>
       </geometry>
+      <material name="blue"/>
     </visual>
 
     <collision name='front_caster_collision'>
@@ -64,6 +80,7 @@
       <geometry>
         <sphere radius="0.05"/>
       </geometry>
+      <material name="blue"/>
     </visual>
 
   </link>
@@ -94,6 +111,7 @@
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
     </visual>
+    <material name="blue"/>
   </link>
 
 <link name='right_wheel'>
@@ -122,6 +140,7 @@
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
     </visual>
+    <material name="blue"/>
   </link>
 
   <link name='camera'>
