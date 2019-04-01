@@ -206,8 +206,8 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 
 add_executable(ball_chaser src/drive_bot.cpp)
 target_link_libraries(ball_chaser ${catkin_LIBRARIES})
-add_dependencies(ball_chaser ballchaser_generate_messages_cpp)
+add_dependencies(ball_chaser ball_chaser_generate_messages_cpp)
 
 add_executable(image_processor src/process_image.cpp)
 target_link_libraries(image_processor ${catkin_LIBRARIES})
-add_dependencies(image_processor ballchaser_generate_messages_cpp)
+add_dependencies(image_processor image_processor_generate_messages_cpp)
